@@ -1,7 +1,7 @@
 ## "makeCacheMatrix" optionally takes a matrix for input and returns 
 ## a list of functions that provide "get", "set", "getinv", and "setinv"
 ## functions for the data held in the "x" and "inv" variables.
-## git?
+
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
 	set <- function(y) {
