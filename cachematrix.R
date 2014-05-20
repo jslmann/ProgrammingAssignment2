@@ -1,6 +1,7 @@
 ## "makeCacheMatrix" optionally takes a matrix for input and returns 
-## a list of functions that provide "get", "set", "getinv", and "setinv"
-## functions for the data held in the "x" and "inv" variables.
+## a list object of functions that provide "get", "set", "getinv", and "setinv"
+## functions for the data held in the "x" variable. The variable "inv" is used to
+## cache the inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
