@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## "cacheSolve" takes a list created by "makeCacheMatrix" and returns 
 ## the inverted matrix. The first time it is called it will calculate 
-## the inverse and store it in x$inv, thereafter it will only return 
+## the inverse and store it in x using x$setinv(), thereafter it will only return 
 ## the stored value
 
 cacheSolve <- function(x) {
