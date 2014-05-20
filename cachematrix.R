@@ -1,3 +1,5 @@
+## this file is best viewed with Tabs set to 4 
+
 ## "makeCacheMatrix" optionally takes a matrix for input and returns 
 ## a list object of functions that provide "get", "set", "getinv", and "setinv"
 ## functions for the data held in the "x" variable. The variable "inv" is used to
